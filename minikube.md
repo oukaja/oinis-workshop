@@ -1,4 +1,4 @@
-## Install with PowerShell.exe
+## Install Chocolatey CLI with PowerShell.exe
 
 With PowerShell, there is an additional step. You must ensure `Get-ExecutionPolicy` is not `Restricted`. We suggest using `Bypass` to bypass the policy to get things installed or `AllSigned` for quite a bit more security.
 
