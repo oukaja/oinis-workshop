@@ -22,7 +22,12 @@ choco install minikube
 ```powershell
 minikube config set driver virtualbox
 ```
-### Start a cluster using the virtualbox driver:
+### Start a cluster
+#### using the virtualbox driver:
 ```powershell
 minikube start --driver=virtualbox
+```
+#### using the Hyper-V driver:
+```powershell
+minikube start --driver=hyperv
 ```
