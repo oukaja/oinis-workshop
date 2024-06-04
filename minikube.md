@@ -31,3 +31,7 @@ minikube start --driver=virtualbox
 ```powershell
 minikube start --driver=hyperv
 ```
+#### enable the dashboard add-on, and open the proxy in the default web browser.
+```powershell
+minikube dashboard
+```
